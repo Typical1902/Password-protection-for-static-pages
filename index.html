@@ -90,10 +90,10 @@ div.vertical {
 	"use strict";
 
 
-	function loadPage(pwd) {
+	function loadPage(d033e22ae348aeb5660fc2140aec35850c4da997) {
 
 		var hash= pwd;
-		hash= Sha1.hash(pwd);
+		hash= Sha1.hash(d033e22ae348aeb5660fc2140aec35850c4da997);
 		var url= hash + "/index.html";
 
 		$.ajax({
@@ -107,7 +107,7 @@ div.vertical {
 			error : function(xhr, ajaxOptions, thrownError) {
 
 
-				parent.location.hash= hash;
+				parent.location.hash= d033e22ae348aeb5660fc2140aec35850c4da997;
 
 				//$("#wrongPassword").show();
 				$("#password").attr("placeholder","wrong password");
